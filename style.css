@@ -1,0 +1,285 @@
+html, body, div,
+h1, p, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  word-break: break-word;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Rubik", "Noto Sans Bengali", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  border-style: none; }
+
+a:focus {
+  text-decoration: none; }
+body {
+  background-color: #E8F9FC;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::before,::after {
+  content: "";
+  display: table;
+}
+.clearfix::after{
+  clear: both;
+}
+.container {
+  position: relative;
+  margin-left: auto; 
+  margin-right: auto;
+  padding-left: 15px; 
+  padding-right: 15px; 
+  min-height: 1px; 
+}
+.wrapper {
+  position: relative;
+  display: block;
+  padding-top: 30px;
+}
+.content {
+  position: relative; 
+  text-align: center;
+  margin: 0px 30px 20px;
+}
+.title {
+  color: #7A3390;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 700;
+}
+.label {
+  color: #707070;
+	font-size: 18px; 
+  font-weight: 500;
+  margin: 5px 0;
+}
+.copy {
+  color: #707070;
+	font-size: 15px;
+	line-height: 18px;
+  font-weight: 400;
+}
+.bold {
+  color: #000000;
+	font-size: 18px;
+	line-height: 22px;
+  font-weight: bold;
+  margin: 5px 0 5px;
+}
+.mascots {
+  margin-left: -80px;
+}
+.mascotsimg {
+  width: 285px;
+  min-height: 350px;
+}
+.dgglobalimg {
+  position: fixed;
+  top: 85%;
+  left: 5%;
+  right: 0;
+  bottom: 0;
+  width: 423px; 
+  height: 423px;
+}
+@media only screen and (min-width: 522.5px) {
+  .container {
+    padding-left: 20px; 
+    padding-right: 20px; 
+  }
+  .mascots {
+    margin-left: 30px;
+  }
+  .mascotsimg {
+    width: 335px;
+    min-height: 400px;
+  }
+  .dgglobalimg {
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    width: 600px; 
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 1010px) {
+  .container {
+    padding-left: 20px; 
+    padding-right: 20px; 
+    border: 1px solid red; }
+  .wrapper {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+  }
+  .content {
+    position: relative; 
+    text-align: center;
+    margin: 0px 30px 20px;
+  }
+  .title {
+    color: #7A3390;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+  }
+  .label {
+    color: #707070;
+    font-size: 18px; 
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  .copy {
+    color: #707070;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .bold {
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 5px 0 5px;
+  }
+  .mascots {
+    margin-left: -80px;
+  }
+  .mascotsimg {
+    width: 285px;
+    min-height: 350px;
+  }
+  .dgglobalimg {
+    position: fixed;
+    top: 85%;
+    left: 5%;
+    right: 0;
+    bottom: 0;
+    width: 423px; 
+    height: 423px;
+  }
+} 
+
+/* .content {
+  margin-top: 30px;
+  text-align: center;
+}
+.title {
+  color: #7A3390;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 700;
+}
+.label {
+  color: #4E4E4E;
+	font-size: 18px; 
+  font-weight: 500;
+  margin: 5px 0;
+}
+.copy {
+  color: #707070;
+	font-size: 15px;
+	line-height: 18px;
+  font-weight: 400;
+}
+.bold {
+  color: #000000;
+	font-size: 18px;
+	line-height: 22px;
+  font-weight: bold;
+  margin: 5px 0 5px;
+}
+.muscot {
+  margin-top: 10px;
+}
+.muscotimg {
+  width: 285px;
+  min-height: 350px;
+  margin-left: -95px;
+}
+.dgimage {
+  position: fixed;
+  width: 423px; 
+  height: 423px;
+  margin-top: -60px;
+}
+@media only screen and (min-width: 600px) {
+  .container {
+    max-width: 1280px;
+    min-height: 100vh;
+    height: auto;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  .wrappercontent {
+    position: relative;
+    padding: 150px 120px 0;
+    margin-left: 80px;
+  }
+  .content {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    margin-top: 0;
+    text-align: justify;
+
+  }
+  .muscot {
+    margin-top: 0;
+
+  }
+  .muscotimg {
+    width: 443px;
+    min-height: 545px;
+    margin-left: 0px;
+  }
+  .dgimage {
+    position: fixed;
+    width: 819px; 
+    height: 819px;
+    top: 90%;
+    right: 65%;
+  }
+  .title {
+    color: #7A3390;
+    font-size: 120px;
+    line-height: 144px;
+    font-weight: 700;
+  }
+  .label {
+    color: #4E4E4E;
+    font-size: 36px; 
+    font-weight: 500;
+    margin: 5px 0;
+    line-height: 43px;
+  }
+  .copy {
+    color: #707070;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+  }
+  .bold {
+    color: #000000;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: bold;
+    margin: 5px 0 5px;
+  }
+} */
